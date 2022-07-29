@@ -10,6 +10,7 @@ import{Footer} from './Components/Footer/Footer'
 import Users from './Components/Users/Users'
 import UsersFunc from './Components/Users/UsersFunc';
 import AddUsers from './Components/Users/addUsers';
+import AddForm from './Components/Users/form';
 
 function App() {
   // day 1
@@ -24,7 +25,7 @@ function App() {
     {/* <Users/> */}
     {/* <UsersFunc/> */}
     <AddUsers/>
-
+    <AddForm/>
     </div>
 
     </>
